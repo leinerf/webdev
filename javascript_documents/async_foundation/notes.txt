@@ -1,0 +1,26 @@
+callback slides
+    http://webdev.slides.com/eschoppik/callbacks#/2
+
+forEach slides  
+    http://webdev.slides.com/eschoppik/mysql-99-108#/
+
+findIndex function
+    http://webdev.slides.com/eschoppik/mysql-107-16#/
+
+stack and heap
+    http://webdev.slides.com/eschoppik/mysql-99-108-17#/
+
+stack example
+    http://webdev.slides.com/eschoppik/mysql-107-16-22#/
+
+setTimeout and setInterval
+    http://webdev.slides.com/eschoppik/mysql-99-108-17-23#/
+
+eventloop 
+    http://webdev.slides.com/eschoppik/mysql-107-16-18#/
+
+promises
+    http://webdev.slides.com/eschoppik/mysql-99-108-17-19#/
+
+promise chaining
+    http://webdev.slides.com/eschoppik/mysql-107-16-18-24#/

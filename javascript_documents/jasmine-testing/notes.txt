@@ -1,0 +1,53 @@
+Why learn testing with Jasmine?
+    Everyone makes mistakes
+
+Unit testing
+    test parts of a code
+
+Use a framework to write tests
+    Jasmine is a unit testing framework
+
+Intro to Jasmine slides
+    http://webdev.slides.com/eschoppik/testing-with-jasmine#/
+
+
+Essential Keywords
+    describe - "let me describe ___ to you."
+    it - "let me tell you about __"
+    expect - "here's what I expect"
+
+Example using Earth
+    describe("Earth");
+    it("is round");
+        expect(earth.isRound.toBe(true));
+    it("is the third planet from the sun");
+        expect(earth.numberFromSun).toBe(3)
+
+matchers are what we expect output to be 
+
+Matchers
+    toBe/not.toBe does(compares references)
+    toBeCloseTo
+    toBeDefined
+    toBeFalsey/toBeTruthy
+    toBeGreaterThan/toBeLessThan
+    toContain
+    toEqual (compares values)
+    jasmine.any() 
+
+BeforeEach
+run before each "it" callback 
+
+Jasmine does not require addition
+
+Spies
+    *) Jasmine has test double functions called spies.
+    *) A spy can mimic any function and track calls to it 
+    and all arguments
+    *) Spies only exists in the describe or it block in which
+        it is defined 
+    *) Spies are removed after each spec 
+    *) There are special matchers for interacting with spies
+
+Blog on Jasmine spies
+    https://blog.codeship.com/jasmine-spyon/

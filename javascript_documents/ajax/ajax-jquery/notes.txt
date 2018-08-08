@@ -1,0 +1,25 @@
+.$.ajax
+.$.get
+.$.post
+.$.getJSON
+
+docs for jquery
+    https://code.jquery.com/
+
+docs for ajax
+    http://api.jquery.com/jQuery.ajax/
+
+bacon ipsum api
+    https://baconipsum.com/api/?type=meat-and-filler
+
+ajax source code
+    https://github.com/jquery/jquery/blob/731c501155ef139f53029c0e58409b80f0af3a0c/src/ajax/xhr.js
+
+ajax shorthand source code
+    https://github.com/jquery/jquery/blob/731c501155ef139f53029c0e58409b80f0af3a0c/src/ajax.js
+
+ajax JQuery.get docs
+    https://api.jquery.com/jQuery.get/
+
+dog api
+    https://dog.ceo/api/breeds/image/random

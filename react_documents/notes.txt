@@ -1,0 +1,25 @@
+props.children
+state is invoked 
+set state is invoked
+pure functions des not modify inputs
+
+refs allow you manipulate the dom directly
+rather than have react change the dom themselves
+
+lifecycle methods mounting
+    constructor()
+    componentWillMount()
+    render()
+    componenetDidMount()
+    componentUnMount()
+    componentWillRecieveProps(nextProps)
+    shouldComponentUpdate(nextProps, nextState)
+    compountWillUpdate(nextProps, nextState)
+    render()
+    componentDidUpdate(prevProps, prevState)
+
+componentUnmount() clean things up 
+componentDidMount() ajax calls
+
+history.pushState
+    changes the state of the window url without actually doing http requests

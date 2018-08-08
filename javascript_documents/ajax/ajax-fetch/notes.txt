@@ -1,0 +1,21 @@
+Fetch can stream data
+Better version of XHR
+Some browsers don't support fetch like Internet Explorer
+
+fetch(url)
+    .then(function(res){
+        console.log(res);
+    })
+    .catch(function(error){
+        console.log(error);
+    });
+
+example of fetch use
+    https://domenic.github.io/streams-demo/
+
+fetch options docs
+    https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch
+
+random user api
+    https://randomuser.me/api/
+

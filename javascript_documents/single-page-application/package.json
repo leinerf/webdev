@@ -1,0 +1,17 @@
+{
+  "name": "json-api",
+  "version": "1.0.0",
+  "description": "simple json app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "freniel zabala",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.1"
+  }
+}

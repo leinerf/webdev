@@ -1,0 +1,6 @@
+axios docs
+    https://github.com/axios/axios
+
+random api
+    https://opentdb.com/api.php?amount=1
+    

@@ -1,0 +1,9 @@
+Javascript has no built in classes
+
+What does new do?
+it creates an empty object
+sets this to the empty object
+adds return this to end of function
+adds "__proto__" to the constructor function of the 
+empty object 
+

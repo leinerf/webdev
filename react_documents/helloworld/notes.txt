@@ -1,0 +1,7 @@
+Props 
+Immutable data passed to your 
+components
+
+Accessible in your component Accessiblean object 
+calle:
+    this.props

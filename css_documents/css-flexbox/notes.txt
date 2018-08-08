@@ -1,0 +1,21 @@
+Flex important properties
+
+Container properties
+
+psuedo-selector {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: stretch; //align on row
+    align-items: stretch;//align on the veritcal axis
+    align-content: flex-start;//space on rows
+}
+
+
+Flex item properties
+order(specify how to order things)
+flex(grow, shrink, flex-basis)
+flex-grow
+flex-shrink
+flex-basis (starting condition)
+align-self(single one out)

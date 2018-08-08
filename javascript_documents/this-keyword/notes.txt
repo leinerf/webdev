@@ -1,0 +1,32 @@
+'this'
+
+*) reserved keyword in javascript
+*) usually determined by how a function is 
+    called
+*) Can be determined using four rules(global, object/implicit, explicit, new)
+
+global context
+    global object(window object)
+
+
+Explicit Binding
+
+method name     parameters           invoked immediately?
+call            thisArg, a,b,c,...      yes
+apply           thisArg, [a,b,c,..]     yes
+bind            thisArg, a,b,c,...      no
+
+When to use apply?
+
+When a function does not accept an array, apply
+will spread out values in an array for us!
+
+Bind?
+The parameters work like call, but bind returns 
+a function with the context of 'this' bound already
+
+The 'new' keyword
+function Person(firstName, lastName){
+    this.firstName = firstName;
+    this.lastName = lastName;
+}
